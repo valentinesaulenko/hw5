@@ -1,0 +1,85 @@
+body {
+    background: #fff;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.clearfix:after {
+    content: '';
+    display: table;
+    width: 100%;
+    clear: both;
+}
+
+header {
+    background: url(../image/bg/bg.jpg) no-repeat center top / cover;
+    padding-bottom: 180px;
+}
+
+.container {
+    width: 1140px;
+    height: 400px;
+    margin: 0 auto;
+}
+
+.logo {
+    margin-top: 20px;
+    margin-left: 160px;
+    margin-right: 75px;
+    float: left;
+    zoom: 75%;
+}
+
+nav {
+    float: center;
+}
+
+.menu {
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
+.menu li {
+    color: #fff;
+    float: left;
+    display: block;
+    margin-right: 35px;
+    margin-top: 20px;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 10px;
+}
+
+.header_contact {
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
+.header_contact ul {
+    display: block;
+    margin-left: 150px;
+}
+
+.header_contact li {
+    color: #fff;
+    float: left;
+    display: block;
+    margin-right: 15px;
+    margin-top: 20px;
+}
+
+.header_contact p {
+    font-size: 10px;
+}
+
+.mail_icon {
+    zoom: 75%;
+    background: url(../image/bg/blue_circle.png) no-repeat center top / cover;
+}
